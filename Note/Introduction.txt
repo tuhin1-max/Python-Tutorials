@@ -1,0 +1,200 @@
+Chapter 0:
+
+0.1 Programming কী?
+
+Programming হলো computer-কে কোনো কাজ করার জন্য step-by-step instructions দেওয়া।
+
+আমরা যেমন একজন মানুষকে বলি:
+
+1. দুইটা সংখ্যা নাও
+2. সংখ্যা দুটো যোগ করো
+3. ফলাফল দেখাও
+
+Computer-কে একই কাজ করানোর জন্য আমরা programming language ব্যবহার করি।
+
+0.2 Programming Language কী?
+
+Computer সরাসরি আমাদের সাধারণ language পুরোপুরি বুঝতে পারে না।
+
+তাই মানুষ এবং computer-এর মধ্যে communication করার জন্য আমরা Programming Language ব্যবহার করি।
+
+Examples:
+C
+C++
+Java
+Python
+JavaScript
+C#
+Go
+Rust
+
+প্রতিটি programming language-এর নিজস্ব syntax এবং rules আছে.
+
+0.3 Programming Language-এর Generation
+
+Programming language ধীরে ধীরে আরও সহজ এবং powerful হয়েছে।
+
+1st Generation Language — Machine Language
+
+Machine language হলো computer-এর সবচেয়ে low-level language।
+
+এখানে instructions binary আকারে লেখা হয়।
+
+Binary:
+0 and 1
+
+Example:
+
+10110000 = 176
+01100001 = 97
+
+Problem:
+
+মানুষের জন্য machine language লেখা এবং বোঝা খুব কঠিন।
+
+2nd Generation Language — Assembly Language
+
+Assembly language machine language-এর তুলনায় মানুষের জন্য কিছুটা সহজ।
+
+এখানে ছোট ছোট instructions ব্যবহার করা হয়।
+
+Examples:
+MOV
+ADD
+SUB
+JMP
+
+3rd Generation Language — High-Level Language
+
+3rd generation-এ programming মানুষের জন্য অনেক সহজ হয়ে যায়।
+
+Examples:
+C
+C++ - DSA
+Java
+Python
+JavaScript
+
+4th Generation Language — Very High-Level Language
+
+4th generation languages are designed to make programming even easier and more user-friendly.
+
+এখানে কম code লিখে complex কাজ করা যায়। এগুলো সাধারণত database management, report generation এবং data processing-এর জন্য ব্যবহৃত হয়।
+
+Examples:
+
+SQL
+MATLAB
+SAS
+
+Advantage:
+Less code, more productivity.
+
+5th Generation Language — 5GL
+
+
+0.4 Python কী?
+
+Python হলো একটি high-level programming language।
+
+Python দিয়ে অনেক ধরনের কাজ করা যায়।
+
+Examples:
+Web Development
+Automation
+Data Analysis
+Artificial Intelligence
+Machine Learning
+Software Development
+Game Development
+Scientific Computing
+
+Python-এর syntax সাধারণত clean এবং readable।
+
+Example:
+
+name = "Tuhin"
+
+print("Hello", name)
+
+
+0.5 Python কে তৈরি করেছেন?
+
+Python তৈরি করেছেন Guido van Rossum।
+
+Python-এর development শুরু হয় 1989 সালের শেষের দিকে।
+
+Python-এর প্রথম public release আসে 1991 সালে।
+
+0.6 Python নামটি কোথা থেকে এসেছে?
+
+অনেকেই ভাবতে পারে Python নামটি snake থেকে এসেছে।
+
+কিন্তু আসলে Python programming language-এর নামটি Monty Python নামে একটি British comedy group-এর নাম থেকে অনুপ্রাণিত।
+
+তাই Python-এর logo-তে snake থাকলেও language-এর নাম snake-এর কারণে দেওয়া হয়নি।
+
+0.7 Beginner হিসেবে Python কেন ভালো?
+
+Python শেখার জন্য beginner-দের কাছে খুব popular হওয়ার কয়েকটি কারণ আছে।
+
+1. Simple Syntax
+
+Python-এর syntax তুলনামূলকভাবে সহজ।
+
+C++ এ:
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello World";
+    return 0;
+}
+
+C++ (DSA): https://www.youtube.com/playlist?list=PLl62BfqQeP4LBQKfeKMjNXYSDvK6CZd0K
+
+Python এ:
+
+print("Hello World")
+
+Beginner হিসেবে Python-এ শুরুতেই অনেক syntax নিয়ে চিন্তা করতে হয় না।
+
+2. Easy to Read
+
+Python code সাধারণত খুব readable।
+
+Example:
+
+age = 20
+
+if age >= 18:
+print("Adult")
+
+3. Huge Community
+
+Python-এর বিশাল developer community রয়েছে।
+
+তাই কোনো problem হলে আমরা বিভিন্ন জায়গা থেকে help পেতে পারি।
+
+Examples:
+
+Google
+GitHub
+YouTube
+Python Documentation
+
+4. Huge Number of Libraries
+
+Python-এর অনেক powerful library এবং framework রয়েছে।
+
+Examples:
+
+NumPy
+Pandas
+Matplotlib
+Django
+Flask
+TensorFlow
+PyTorch
+Scikit-learn

@@ -1,0 +1,111 @@
+Data Types
+
+Python has several built-in data types.
+
+The most common data types are:
+
+1. int
+2. float
+3. str
+4. bool
+
+
+1. Integer (int)
+
+Integer is used to store whole numbers without a decimal point.
+
+Examples:
+
+age = 22
+student_count = 50
+year = 2026
+
+
+To check the data type:
+
+age = 22
+print(type(age))
+
+Output:
+<class 'int'>
+
+
+2. Float (float)
+
+Float is used to store numbers with a decimal point.
+
+Examples:
+
+cgpa = 3.89
+price = 99.50
+temperature = 36.5
+
+
+To check the data type:
+
+cgpa = 3.89
+print(type(cgpa))
+
+Output:
+<class 'float'>
+
+
+3. String (str)
+
+String is used to store text.
+
+A string must be written inside quotes.
+
+We can use:
+- "Double quotes"
+- 'Single quotes'
+
+Examples:
+
+name = "Tuhin"
+country = 'Bangladesh'
+message = "Hello Python"
+
+
+To check the data type:
+
+name = "Tuhin"
+print(type(name))
+
+Output:
+<class 'str'>
+
+
+4. Boolean (bool)
+
+Boolean is used to store only two values:
+
+True
+False
+
+Examples:
+
+is_student = True
+is_admin = False
+
+
+To check the data type:
+
+is_student = True
+print(type(is_student))
+
+Output:
+<class 'bool'>
+
+Important:
+Python is dynamically typed.
+
+This means we do not need to manually declare the data type of a variable.
+
+Example:
+age = 22
+name = "Tuhin"
+cgpa = 3.89
+is_student = True
+
+Python automatically understands the data type.

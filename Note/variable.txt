@@ -1,0 +1,66 @@
+Python Variable Naming Rules:
+
+1. Variable name must start with a letter or underscore (_).
+
+   Correct:
+   name = "Tuhin"
+   _age = 22
+
+   Incorrect:
+   2name = "Tuhin"
+
+
+2. Variable name can contain letters, numbers, and underscores (_).
+
+   Correct:
+   student1 = "Tuhin"
+   student_age = 22
+
+   Note: A variable name cannot start with a number.
+
+
+3. Spaces are not allowed in variable names.
+
+   Correct:
+   student_name = "Tuhin"
+
+   Incorrect:
+   student name = "Tuhin"
+
+
+4. Special characters are not allowed in variable names.
+
+   Special characters include:
+   @, #, $, %, -, &, etc.
+
+   Correct:
+   student_name = "Tuhin"
+
+   Incorrect:
+   student-name = "Tuhin"
+
+
+5. Python keywords cannot be used as variable names.
+
+   Examples of keywords:
+   if, else, for, while, class, def, True, False, etc.
+
+   Incorrect:
+   if = 10
+
+
+6. Python is case-sensitive.
+
+   name = "Tuhin"
+   Name = "Rahim"
+
+   Here, "name" and "Name" are two different variables.
+
+
+Good Practice:
+
+Use meaningful variable names so that the purpose of the variable is easy to understand.
+
+   student_name = "Tuhin"
+   student_age = 22
+   student_cgpa = 3.89

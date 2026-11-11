@@ -1,0 +1,223 @@
+3. Input & Comments
+
+Input:
+
+The input() function is used to take data from the user.
+
+Example:
+
+name = input("Enter your name: ")
+print(name)
+
+When the program runs, the user can type something.
+
+Example:
+
+Enter your name: Tuhin
+
+Output:
+Tuhin
+
+The input() function always returns data as a string.
+
+Example:
+
+age = input("Enter your age: ")
+
+print(age)
+print(type(age))
+
+Output:
+<class 'str'>
+
+Even if the user enters a number, input() takes it as a string.
+
+Example:
+
+age = input("Enter your age: ")
+
+print(age + " years old")
+
+Output:
+
+22 years old
+
+
+But this will not work:
+
+age = input("Enter your age: ")
+
+print(age + 5)
+
+Because age is a string, not an integer.
+
+
+We can solve this using Type Conversion.
+
+
+Comments:
+
+Comments are used to explain the code.
+
+Python ignores comments while running the program.
+
+There are two common ways to write comments.
+
+
+1. Single-line Comment
+
+Use # before the comment.
+
+Example:
+
+# This is a comment
+
+name = "Tuhin"
+
+
+We can also write a comment beside the code:
+
+age = 22  # Student age
+
+
+2. Multiple-line Comments
+
+Python does not have a special multiple-line comment symbol.
+
+We can use multiple # symbols.
+
+Example:
+
+# This program takes the user's name
+# and prints a welcome message
+# This is a simple Python program
+
+name = input("Enter your name: ")
+print("Welcome", name)
+
+
+Good Practice:
+
+Write comments when they help explain something that may not be obvious.
+
+Do not write unnecessary comments for every single line.
+
+
+Example:
+
+# Store student's age
+age = 22
+
+# Print student's age
+print(age)3. Input & Comments
+
+Input:
+
+The input() function is used to take data from the user.
+
+Example:
+
+name = input("Enter your name: ")
+print(name)
+
+
+When the program runs, the user can type something.
+
+Example:
+
+Enter your name: Tuhin
+
+Output:
+Tuhin
+
+
+The input() function always returns data as a string.
+
+Example:
+
+age = input("Enter your age: ")
+
+print(age)
+print(type(age))
+
+Output:
+<class 'str'>
+
+
+Even if the user enters a number, input() takes it as a string.
+
+
+Example:
+
+age = input("Enter your age: ")
+
+print(age + " years old")
+
+Output:
+
+22 years old
+
+
+But this will not work:
+
+age = input("Enter your age: ")
+
+print(age + 5)
+
+Because age is a string, not an integer.
+
+
+We can solve this using Type Conversion.
+
+
+Comments:
+
+Comments are used to explain the code.
+
+Python ignores comments while running the program.
+
+There are two common ways to write comments.
+
+
+1. Single-line Comment
+
+Use # before the comment.
+
+Example:
+
+# This is a comment
+
+name = "Tuhin"
+
+We can also write a comment beside the code:
+
+age = 22  # Student age
+
+
+2. Multiple-line Comments
+
+Python does not have a special multiple-line comment symbol.
+
+We can use multiple # symbols.
+
+Example:
+
+# This program takes the user's name
+# and prints a welcome message
+# This is a simple Python program
+
+name = input("Enter your name: ")
+print("Welcome", name)
+
+Good Practice:
+
+Write comments when they help explain something that may not be obvious.
+Do not write unnecessary comments for every single line.
+
+Example:
+
+# Store student's age
+age = 22
+
+# Print student's age
+print(age)

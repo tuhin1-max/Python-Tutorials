@@ -1,0 +1,14 @@
+Problem:
+
+Write a Python program that takes a product name, 
+product price and quantity from the user. 
+Calculate the total price and display the shopping information.
+
+Requirements:
+1. Take product name as input.
+2. Take product price as input.
+3. Take quantity as input.
+4. Convert price into Float and quantity into Integer.
+5. Calculate the total price.
+6. Convert the total price into Integer using Type Casting.
+7. Display all information using print().
